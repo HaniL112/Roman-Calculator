@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/buttonBackground"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#000000" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/romanButton500"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman500"/>
+
+        <Button
+            android:id="@+id/romanButton1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman1000"/>
+
+        <Button
+            android:id="@+id/clearButton"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/clearButtonColor"
+            android:text="@string/clearSign"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/romanButton50"
+
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman50"/>
+
+        <Button
+            android:id="@+id/romanButton100"
+
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman100"/>
+
+        <Button
+            android:id="@+id/plusButton"
+            style="@style/ButtonStyle"
+
+            android:layout_height="wrap_content"
+            android:text="@string/plusSign"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/romanButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman5"/>
+
+        <Button
+            android:id="@+id/romanButton10"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/ButtonStyle"
+            android:text="@string/roman10"/>
+
+        <Button
+            android:id="@+id/minusButton"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minusSign"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/romanButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle"
+            android:layout_span="2"
+            android:fontFamily="monospace"
+            android:paddingLeft="142dp"
+            android:paddingRight="142dp"
+            android:textStyle="bold"
+            android:text="@string/roman1"/>
+
+        <Button
+            android:id="@+id/equalButton"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equalSign" />
+
+    </TableRow>
+
+</TableLayout>
